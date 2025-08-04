@@ -42,6 +42,7 @@ spotipy
 tgcrypto
 telegraph
 unidecode
+uvloop
 youtube-search
 youtube-search-python
 gtts
