@@ -35,6 +35,9 @@ BOT_LOGS_CHANNEL = int(getenv("BOT_LOGS_CHANNEL", "-1002731989493")) #Replace Wi
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
+# Flask
+WEB_APP = getenv("WEB_APP", False)
+
 # Duration
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "99999"))
