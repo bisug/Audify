@@ -9,6 +9,7 @@ deepai
 python-whois
 dnspython
 ffmpeg-python
+flask 
 gitpython
 hachoir
 Faker
