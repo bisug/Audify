@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: my-worker
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    startCommand: bash start
