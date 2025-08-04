@@ -11,10 +11,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from telethon.sync import TelegramClient as TeleClient
 from telethon.sessions import StringSession as TeleString
+from config import API_ID, API_HASH 
 from Audify import app
-
-API_ID = 29557063  # Replace with your default API ID
-API_HASH = "98975771aa1190b5fbc993f976960260"  # Replace with your default API HASH
 
 session_users = {}
 
