@@ -21,7 +21,9 @@ from Audify.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS, WEB_APP  
 import subprocess
 if WEB_APP:
-        subprocess.Popen(['python3', 'web.py'])
+    import threading
+    import web
+    threading.Thread(target=web.run).start()
 
 async def init():
     if (
